@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+#nb-hero.nb-hero-clip {
+  height: 90%;
+  min-height: 800px;
+}
+#nb-half-hero.nb-half-hero-clip, #nb-hero.nb-hero-clip, #nb-megashark.nb-megashark-clip {
+  clip-path: polygon(0 0,3600px 0,3600px 87%,0 100%);
+}
+#nb-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://fatcamp-io-nettbureauas.netdna-ssl.com/xn--strm-ira.no/images/covers/superhelt/strom_hero.png?width=3000);
+}
+.header-inner, section {
+  margin: 0 auto;
+  width: 80%;
+}
+.nb-hero--inner {
+  position: relative;
+  font-size: 1em;
+}
